@@ -68,13 +68,11 @@ GEM
       treetop (~> 1.4.8)
     metaclass (0.0.1)
     mime-types (1.25.1)
-    mini_portile (0.5.2)
     mocha (0.13.3)
       metaclass (~> 0.0.1)
     multi_json (1.8.2)
     mysql2 (0.3.14)
-    nokogiri (1.6.0)
-      mini_portile (~> 0.5.0)
+    nokogiri (1.5.10)
     pg (0.17.0)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -170,6 +168,7 @@ DEPENDENCIES
   json_pure
   mocha (~> 0.13.3)
   mysql2 (~> 0.3.11)
+  nokogiri (< 1.6)
   pg (~> 0.15)
   rack
   rails (~> 3.2)
